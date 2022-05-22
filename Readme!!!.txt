@@ -22,4 +22,4 @@ Step_5: Since the data is in JSON format, use another .js file, and use Chart.js
 
 These were the steps I was planning on doing it but couldn't as I needed more time to do it.
 
-THANKS FOR MAKING IT TILL THE END!!!:)
+THANKS FOR MAKING IT TILL THE END!!!:) 
