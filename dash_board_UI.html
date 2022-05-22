@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width"=device-width, initial-scale="1.0">
+    <title>Nunam Dashboard</title>
+    <!-- Material Icons-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp"
+      rel="stylesheet">
+    <!-- Stylesheets -->
+    <link  rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+    
+
+    
+    <div class="container">
+        <aside>
+            <div class="top">
+                <div class ="logo">
+                    <img src="C:\Users\aadar\OneDrive\Desktop\Nunam.webp">
+                    <h2>&emsp;&nbsp; <span class="sky">Second-Life</span><span class="success"> Batteries</span></h2>
+                </div>
+                <div class="close" id="close-btn">
+                    <span class="material-icons-sharp">close</span>
+                </div>
+            </div>
+            <div class="sidebar">
+                <a href="#" class="active">
+                    <span class="material-icons-sharp">grid_view</span>
+                    <h3>Dashboard</h3>
+                </a>
+                <a href="#">
+                    
+                    <h3>Cell ID</h3>
+                </a><a href="#">
+                    
+                    <span class="material-icons-sharp">battery_6_bar</span>
+                    <h3>5380</h3>
+                </a>
+            <a href="#">
+                <span class="material-icons-sharp">battery_6_bar</span>
+                <h3>5329</h3>
+            </a>
+            <a href="#">
+                <span class="material-icons-sharp">logout</span>
+                <h3>Logout</h3>
+            </a>
+            </div>
+        </aside>
+        <!---------------------End of Aside----------------->
+        <main>
+            <h1>Dashboard</h1>
+            <h4>Cell-5380</h4>
+            <h5>Cell-5329</h5>
+    
+    
+    <div class="Micharts">
+    <!----------------chart.js--------------->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+        
+    
+    <!----------------configure--------------->
+       <canvas id="myChart" ></canvas>
+       <script>
+       const ctx = document.getElementById('myChart');
+       const myChart = new Chart(ctx, {
+           type: 'pie',
+           data: {
+               
+               labels: ['Remaming Capacity','Used Energy'],
+               datasets: [{
+                   label: '# of Votes',
+                   data: [99,1],
+                   backgroundColor: [
+               
+                       '#30aadd',
+                       '#D3D3D3'
+                       
+                   ],
+               
+                   borderWidth: 0
+               }]
+           },
+          
+       });
+       </script>
+        </div>
+      <div class="Micharts2">
+
+       <canvas id="myChart2"></canvas>
+       <script>
+       const ctx2 = document.getElementById('myChart2');
+       const myChart2 = new Chart(ctx2, {
+           type: 'pie',
+           data: {
+               labels: ['Remaming Capacity','Used Energy'],
+               datasets: [{
+                   labels: '# of Votes',
+                   data: [98,2],
+                   backgroundColor: [
+               
+                       '#30aadd',
+                       '#D3D3D3'
+                       
+                   ],
+               
+                   borderWidth: 0
+               }]
+           },
+          
+       });
+       </script>    
+        </div>
+            
+        </main>
+
+    </div>
+</body>
+</html>
