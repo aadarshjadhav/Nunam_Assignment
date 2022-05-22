@@ -23,3 +23,7 @@ Step_3: Create a client and server that is connected to the PostgreSQL database 
 Step_4: Create APIs to perform Read-only queries to get voltage, current etc among CRUD operations on the Database.
 
 Step_5: Since the data is in JSON format, use another .js file, and use Chart.js to perform linear graphs.
+
+These were the steps I was planning on doing it but couldn't as I needed more time to do it.
+
+THANKS FOR MAKING IT TILL THE END!!!:)
