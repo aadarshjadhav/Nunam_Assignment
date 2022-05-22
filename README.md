@@ -14,12 +14,12 @@ Even though it's been too late and being only a few minutes away from the deadli
 
 How to execute this assignment?
 
-Step_1:Create Dashboard UI using Html, CSS and javascript.
+Step_1: Create Dashboard UI using Html, CSS and javascript.
 
-Step_2:Convert .xlsx files to .csv file so that it could be imported to PostgreSQL database.
+Step_2: Convert .xlsx files to .csv file so that it could be imported to PostgreSQL database.
 
-Step_3:Create a client and server that is connected to the PostgreSQL database using Nodejs or .js file.As I tried to do it in the db_connection.js file.
+Step_3: Create a client and server that is connected to the PostgreSQL database using Nodejs or .js file.As I tried to do it in the db_connection.js file.
 
-Step_4:Create APIs to perform Read-only queries to get voltage, current etc among CRUD operations on the Database.
+Step_4: Create APIs to perform Read-only queries to get voltage, current etc among CRUD operations on the Database.
 
-Step_5:Since the data is in JSON format, use another .js file, and use Chart.js to perform linear graphs.
+Step_5: Since the data is in JSON format, use another .js file, and use Chart.js to perform linear graphs.
