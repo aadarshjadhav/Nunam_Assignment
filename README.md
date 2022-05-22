@@ -2,7 +2,7 @@
 Assignment::Create a Simple two-fold Dashboard using any of the preferred frameworks of your choice. The task is to create a simple two-page dashboard using any standard frameworks for which data is already provided.
 
 Disclaimer: The assignment is not completed and I did not have much help from anyone. Hence, there are only a few steps to run it. Everything I learned for this assignment was from the internet and tried my best to understand how REST API works.
-I have also added screenshots from my system to help understand how it looks, in case you felt something is odd or missing from the dashboard.
+I have also added a screenshot from my system to help understand how it looks, in case you felt something is odd or missing from the dashboard.
 
 How to run the program?
 
